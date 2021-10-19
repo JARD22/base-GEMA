@@ -1,0 +1,1236 @@
+{
+	"info": {
+		"_postman_id": "bc6fa1c5-4fbe-4a68-b15b-e7c046fee961",
+		"name": "GEMA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PERSONAS",
+			"item": [
+				{
+					"name": "GET Lista  Personas",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzA5Njg4ODYsImV4cCI6MTYzMDk5NDA4Nn0.CMnbopDkXO7L7YTYAdy0SmDGAj2kzkykdGHCPXs9W_A",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/personas/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"personas",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Nuevo Usuario",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzA4MDg4MDMsImV4cCI6MTYzMDgzNDAwM30.XmOQRr_xgwJG9nTSOMg8-qn7PDHBIuwmUrA6p6tUBKo",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/personas/usuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"personas",
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Nuevo Alumno",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzAzNjYyODgsImV4cCI6MTYzMDM5MTQ4OH0.ytK3IsG9tzXK9xniZCNLhGx558fJuqa8uiw4Km9t3bE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "cod_tipo_persona",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "dni",
+									"value": "0000000000013",
+									"type": "text"
+								},
+								{
+									"key": "primer_nombre",
+									"value": "María",
+									"type": "text"
+								},
+								{
+									"key": "segundo_nombre",
+									"value": "Patricia",
+									"type": "text"
+								},
+								{
+									"key": "primer_apellido",
+									"value": "Torres",
+									"type": "text"
+								},
+								{
+									"key": "segundo_apellido",
+									"value": "López",
+									"type": "text"
+								},
+								{
+									"key": "nacionalidad",
+									"value": "HONDUREÑA",
+									"type": "text"
+								},
+								{
+									"key": "sexo",
+									"value": "F",
+									"type": "text"
+								},
+								{
+									"key": "fecha_nacimiento",
+									"value": "02-03-03",
+									"type": "text"
+								},
+								{
+									"key": "direccion",
+									"value": "Direccion alumno desde postman 1",
+									"type": "text"
+								},
+								{
+									"key": "grupo",
+									"value": "0000000000010",
+									"type": "text"
+								},
+								{
+									"key": "enfermedad",
+									"value": "Ninguna",
+									"type": "text"
+								},
+								{
+									"key": "vive_con",
+									"value": "P",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/personas/alumno",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"personas",
+								"alumno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Nuevo Familiar",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzAzNjYyODgsImV4cCI6MTYzMDM5MTQ4OH0.ytK3IsG9tzXK9xniZCNLhGx558fJuqa8uiw4Km9t3bE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "cod_tipo_persona",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "dni",
+									"value": "0000000000014",
+									"type": "text"
+								},
+								{
+									"key": "primer_nombre",
+									"value": "Karen",
+									"type": "text"
+								},
+								{
+									"key": "segundo_nombre",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "primer_apellido",
+									"value": "González",
+									"type": "text"
+								},
+								{
+									"key": "segundo_apellido",
+									"value": "Nuñez",
+									"type": "text"
+								},
+								{
+									"key": "nacionalidad",
+									"value": "HONDUREÑA",
+									"type": "text"
+								},
+								{
+									"key": "sexo",
+									"value": "F",
+									"type": "text"
+								},
+								{
+									"key": "fecha_nacimiento",
+									"value": "04-03-03",
+									"type": "text"
+								},
+								{
+									"key": "direccion",
+									"value": "Direccion prueba nuevo familiar postman1",
+									"type": "text"
+								},
+								{
+									"key": "telefonos",
+									"value": "[{\"telefono\":\"00000000\",\"cod_tipo_telefono\":\"1\",\"whatsapp\":\"true\",\"emergencia\":\"true\"},\t\t\t {\"telefono\":\"00000000\",\"cod_tipo_telefono\":\"2\",\"whatsapp\":\"true\",\"emergencia\":\"true\"}]",
+									"type": "text"
+								},
+								{
+									"key": "crear_grupo",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "grupo",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "lugar_trabajo",
+									"value": "Prueba Lugar trabajo Postman 1",
+									"type": "text"
+								},
+								{
+									"key": "ocupacion",
+									"value": "Prueba Ocupacion Postman1",
+									"type": "text"
+								},
+								{
+									"key": "encargado",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "escolaridad",
+									"value": "Universidad incompleta",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/personas/familiar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"personas",
+								"familiar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Lista Tipo Persona",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzA5Njg4ODYsImV4cCI6MTYzMDk5NDA4Nn0.CMnbopDkXO7L7YTYAdy0SmDGAj2kzkykdGHCPXs9W_A",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/personas/tipo-persona",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"personas",
+								"tipo-persona"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Persona por UID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzE0MDU4MzIsImV4cCI6MTYzMTQzMTAzMn0.IVJBJ3Naf3cZwRSok-mA4nnJdNME3XKi1QS9uLmuVxw",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/personas/persona-id/45519ad3-a853-4ec0-8470-f0fd319fa203",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"personas",
+								"persona-id",
+								"45519ad3-a853-4ec0-8470-f0fd319fa203"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PATCH Actualizar familiar",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzE0OTUyODcsImV4cCI6MTYzMTUyMDQ4N30.DCevFajD1CzzX0erwMJhTtsaU2IPDq4_8zvlCYMt6sQ",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "uid",
+									"value": "bb149d6f-0554-449a-b724-0186e196f70c",
+									"type": "text"
+								},
+								{
+									"key": "dni",
+									"value": "0000000000003",
+									"type": "text"
+								},
+								{
+									"key": "primer_nombre",
+									"value": "PADRE2",
+									"type": "text"
+								},
+								{
+									"key": "primer_apellido",
+									"value": "APELLIDO PADRE2",
+									"type": "text"
+								},
+								{
+									"key": "segundo_nombre",
+									"value": "ADMIN",
+									"type": "text"
+								},
+								{
+									"key": "segundo_apellido",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "encargado",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "ocupacion",
+									"value": "OCUPACION PADRE2",
+									"type": "text"
+								},
+								{
+									"key": "lugar_trabajo",
+									"value": "LUGAR TRABAJO 2",
+									"type": "text"
+								},
+								{
+									"key": "escolaridad",
+									"value": "UNIVERSIDAD COMPLETA",
+									"type": "text"
+								},
+								{
+									"key": "nacionalidad",
+									"value": "HONDUREÑA",
+									"type": "text"
+								},
+								{
+									"key": "sexo",
+									"value": "M",
+									"type": "text"
+								},
+								{
+									"key": "fecha_nacimiento",
+									"value": "2001-01-01",
+									"type": "text"
+								},
+								{
+									"key": "direccion",
+									"value": "DIRECCION PADRE2",
+									"type": "text"
+								},
+								{
+									"key": "telefonosFamiliar",
+									"value": "[{ \"cod_telefono\": 11,\"telefono\": \"97070587\",\n      \"cod_tipo_telefono\": 2,\n      \"whatsapp\": true,\n      \"emergencia\": false\n    },\n    {\n      \"cod_telefono\": 10,\n      \"telefono\": \"9999988\",\n      \"cod_tipo_telefono\": 1,\n      \"whatsapp\": true,\n      \"emergencia\": false\n    }\n  ]",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/personas/actualizar-familiar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"personas",
+								"actualizar-familiar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE Telefono Persona",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzE1ODMwNzMsImV4cCI6MTYzMTYwODI3M30.LUcCXgXM8ETVCWttVEYrArrHcxEFK8FIxjKR0QaS1co",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/personas/eliminar-telefono/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"personas",
+								"eliminar-telefono",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Busqueda Persona",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/personas/busqueda/08",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"personas",
+								"busqueda",
+								"08"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Alumno por UID",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzE5MjQ1NTUsImV4cCI6MTYzMTk0OTc1NX0.tcf-gUsTt0RO8VoRnWMcI3NdnPBe8J6by36xp9e-cKQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/personas/alumno-id/f0c0f194-8643-442b-be95-bce1cbe7be52",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"personas",
+								"alumno-id",
+								"f0c0f194-8643-442b-be95-bce1cbe7be52"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PATCH Actualizar Alumno",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzIwMjA0NzIsImV4cCI6MTYzMjA0NTY3Mn0.5drXTF7aHAZqXTriMrumU1yVe_qQSNczr2kNCU1pJHQ",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "uid",
+									"value": "f0c0f194-8643-442b-be95-bce1cbe7be52",
+									"type": "text"
+								},
+								{
+									"key": "cod_tipo_persona",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "dni",
+									"value": "0000000000006",
+									"type": "text"
+								},
+								{
+									"key": "fecha_nacimiento",
+									"value": "2001-01-01",
+									"type": "text"
+								},
+								{
+									"key": "primer_nombre",
+									"value": "ALUMNO",
+									"type": "text"
+								},
+								{
+									"key": "primer_apellido",
+									"value": "APELLIDO ALUMN",
+									"type": "text"
+								},
+								{
+									"key": "segundo_nombre",
+									"value": "ALUMNO",
+									"type": "text"
+								},
+								{
+									"key": "segundo_apellido",
+									"value": "APELLIDO ALUMN",
+									"type": "text"
+								},
+								{
+									"key": "nacionalidad",
+									"value": "HONDUREÑA",
+									"type": "text"
+								},
+								{
+									"key": "direccion",
+									"value": "DIRECCION ALUMNO",
+									"type": "text"
+								},
+								{
+									"key": "enfermedad",
+									"value": "Observaciones Alumno",
+									"type": "text"
+								},
+								{
+									"key": "vive_con",
+									"value": "E",
+									"type": "text"
+								},
+								{
+									"key": "sexo",
+									"value": "F",
+									"type": "text"
+								},
+								{
+									"key": "estado",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "motivo_retiro",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/personas/actualizar-alumno",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"personas",
+								"actualizar-alumno"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cursos y Secciones",
+			"item": [
+				{
+					"name": "GET Lista de cursos",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzI0MzQ4NTYsImV4cCI6MTYzMjQ2MDA1Nn0.sX6MwFyJzRsqeJVvBnUK5gBpS_eDlH_jMJhCETfSniw",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/cursos/lista-cursos/0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"cursos",
+								"lista-cursos",
+								"0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Nuevo Curso",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzI0MzQ4NTYsImV4cCI6MTYzMjQ2MDA1Nn0.sX6MwFyJzRsqeJVvBnUK5gBpS_eDlH_jMJhCETfSniw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre",
+									"value": "BACHILLERATO TÉCNICO PROFESIONAL EN CONTADURIA Y FINANZAS",
+									"type": "text"
+								},
+								{
+									"key": "descripcion",
+									"value": "BACHILLERATO",
+									"type": "text"
+								},
+								{
+									"key": "estado",
+									"value": "true",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/cursos/nuevo-curso",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"cursos",
+								"nuevo-curso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PATCH Actualizar curso",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzI0MzQ4NTYsImV4cCI6MTYzMjQ2MDA1Nn0.sX6MwFyJzRsqeJVvBnUK5gBpS_eDlH_jMJhCETfSniw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "cod_curso",
+									"value": "8",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "BACHILLERATO TÉCNICO PROFESIONAL EN CONTADURIA Y FINANZAS",
+									"type": "text"
+								},
+								{
+									"key": "descripcion",
+									"value": "BTPCF",
+									"type": "text"
+								},
+								{
+									"key": "estado",
+									"value": "true",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/cursos/actualizar-curso",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"cursos",
+								"actualizar-curso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE Eliminar Curso",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzI0MzQ4NTYsImV4cCI6MTYzMjQ2MDA1Nn0.sX6MwFyJzRsqeJVvBnUK5gBpS_eDlH_jMJhCETfSniw",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/cursos/eliminar-curso/8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"cursos",
+								"eliminar-curso",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Buscar Curso por nombre",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/cursos/buscar-curso/IN",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"cursos",
+								"buscar-curso",
+								"IN"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Lista secciones",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzI2MTU4ODEsImV4cCI6MTYzMjY0MTA4MX0.miAUzP4I4kZug7uOiSVRDA69i3tabEq4u3NgqyzEOZI",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/cursos/secciones/8/2021",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"cursos",
+								"secciones",
+								"8",
+								"2021"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Nueva Seccion",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzI2MTU4ODEsImV4cCI6MTYzMjY0MTA4MX0.miAUzP4I4kZug7uOiSVRDA69i3tabEq4u3NgqyzEOZI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "cod_curso",
+									"value": "8",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "A",
+									"type": "text"
+								},
+								{
+									"key": "cupos",
+									"value": "30",
+									"type": "text"
+								},
+								{
+									"key": "anio",
+									"value": "2020",
+									"type": "text"
+								},
+								{
+									"key": "estado",
+									"value": "true",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/cursos/nueva-seccion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"cursos",
+								"nueva-seccion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PATCH Actualizar seccion",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzI2MTU4ODEsImV4cCI6MTYzMjY0MTA4MX0.miAUzP4I4kZug7uOiSVRDA69i3tabEq4u3NgqyzEOZI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "cod_seccion",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "nombre",
+									"value": "a",
+									"type": "text"
+								},
+								{
+									"key": "cupos",
+									"value": "32",
+									"type": "text"
+								},
+								{
+									"key": "anio",
+									"value": "2021",
+									"type": "text"
+								},
+								{
+									"key": "estado",
+									"value": "true",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/cursos/actualizar-seccion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"cursos",
+								"actualizar-seccion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Unir Secciones",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzMwNTcxMzksImV4cCI6MTYzMzA4MjMzOX0.bgUKiQ_V7FHnGCLkkl7DqyIP7w52d27RQkPsQ3rV9WM",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre",
+									"value": "R",
+									"type": "text"
+								},
+								{
+									"key": "anio",
+									"value": "2021",
+									"type": "text"
+								},
+								{
+									"key": "seccion1",
+									"value": "7",
+									"type": "text"
+								},
+								{
+									"key": "seccion2",
+									"value": "3",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/cursos/unir-secciones",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"cursos",
+								"unir-secciones"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Colegios",
+			"item": [
+				{
+					"name": "GET Colegios",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzQwODEyNDMsImV4cCI6MTYzNDEwNjQ0M30.MFKeIzss08XhoukW39K6H2GznvXaJIjRxlX9vbsn7-Y",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/colegios/lista-colegios/0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"colegios",
+								"lista-colegios",
+								"0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Nuevo Colegio",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzM2NDY2ODksImV4cCI6MTYzMzY3MTg4OX0.9shx3ZC7TL8Vct4BKa4vT8HPgto2ATvGRxVTYbqWdd8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre",
+									"value": "TECNICO LUIS BOGRAN",
+									"type": "text"
+								},
+								{
+									"key": "estado",
+									"value": "true",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/colegios/nuevo-colegio",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"colegios",
+								"nuevo-colegio"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PATCH Actualizar Colegio",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb3JyZW8iOiJqb3JnZWFndWlsZXJhLmFnekBnbWFpbC5jb20iLCJpYXQiOjE2MzQwODEyNDMsImV4cCI6MTYzNDEwNjQ0M30.MFKeIzss08XhoukW39K6H2GznvXaJIjRxlX9vbsn7-Y",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre",
+									"value": "PRUEBA POSTMAN",
+									"type": "text"
+								},
+								{
+									"key": "estado",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "cod_colegio",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/colegios/actualizar-colegio",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"colegios",
+								"actualizar-colegio"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Busqueda por colegio",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/colegios/busqueda/pr",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"colegios",
+								"busqueda",
+								"pr"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Matriula",
+			"item": [
+				{
+					"name": "GET Tipos Matricula",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/matricula/tipos-matricula",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"matricula",
+								"tipos-matricula"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Cursos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/matricula/cursos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"matricula",
+								"cursos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "POST LOGIN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "usuario",
+							"value": "jorgeaguilera.agz@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "contrasena",
+							"value": "Password123$",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
